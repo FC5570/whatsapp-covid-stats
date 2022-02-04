@@ -12,7 +12,7 @@ export function registerJobs() {
 	bree.add({
 		name: 'main',
 		path: join(__dirname, '..', 'jobs', 'sendMessage.js'),
-		timeout: 10_000
+		interval: 'at 12:00 AM'
 	});
 }
 
