@@ -1,0 +1,6 @@
+{
+	"country": "replace with the country you want covid stats of",
+	"phoneNumber": "replace with your phone number, with country code at start and @c.us at the end, read the readme for more info",
+	"puppeteer_headless": true,
+	"disable_bree_logger": true
+}

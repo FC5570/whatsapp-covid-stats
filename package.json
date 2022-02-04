@@ -1,0 +1,34 @@
+{
+	"name": "whatsapp-covid-stats",
+	"version": "1.0.0",
+	"description": "A whatsapp bot to DM you the Covid stats of the country set every day at 12 AM.",
+	"main": "dist/index.js",
+	"repository": "https://github.com/FC5570/whatsapp-covid-stats",
+	"author": "FC5570",
+	"license": "MIT",
+	"scripts": {
+		"build": "tsc -b src",
+		"start": "node dist/index.js",
+		"test": "yarn build && yarn start",
+		"format": "prettier --write ."
+	},
+	"dependencies": {
+		"bree": "^7.1.5",
+		"colorette": "^2.0.16",
+		"phin": "^3.6.1",
+		"qrcode-terminal": "^0.12.0",
+		"reflect-metadata": "^0.1.13",
+		"tslib": "^2.3.1",
+		"tsyringe": "^4.6.0",
+		"whatsapp-web.js": "^1.15.4"
+	},
+	"devDependencies": {
+		"@sapphire/prettier-config": "^1.3.0",
+		"@sapphire/ts-config": "^3.2.0",
+		"@types/qrcode-terminal": "^0.12.0",
+		"prettier": "^2.5.1",
+		"typescript": "^4.5.5"
+	},
+	"packageManager": "yarn@3.1.1",
+	"prettier": "@sapphire/prettier-config"
+}

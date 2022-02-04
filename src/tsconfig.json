@@ -1,0 +1,10 @@
+{
+	"extends": "@sapphire/ts-config",
+	"compilerOptions": {
+		"target": "ESNext",
+		"rootDir": ".",
+		"baseUrl": ".",
+		"outDir": "../dist",
+		"skipLibCheck": true
+	}
+}
